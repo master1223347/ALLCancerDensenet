@@ -1,0 +1,6 @@
+Python 3.11+
+PyTorch >= 2.1
+torchvision
+matplotlib
+scikit-learn
+numpy
