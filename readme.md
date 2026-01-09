@@ -5,14 +5,14 @@ This project implements a DenseNet model to classify images of blood smears into
 
 ## Project Structure
 
-project/
-│
-├── data/               # raw and processed images
-├── models/             # saved DenseNet checkpoints
-├── notebooks/          # preprocessing, training, evaluation
-├── results/            # plots, Grad-CAM visualizations, confusion matrices
-└── README.md           # this file
-└── requirements.txt    # intstallation requirements
+      project/
+      │
+      ├── data/               # raw and processed images
+      ├── models/             # saved DenseNet checkpoints
+      ├── notebooks/          # preprocessing, training, evaluation
+      ├── results/            # plots, Grad-CAM visualizations, confusion matrices
+      └── README.md           # this file
+      └── requirements.txt    # intstallation requirements
 
 ## Dataset
 
