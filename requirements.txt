@@ -1,5 +1,4 @@
-Python 3.11+
-PyTorch >= 2.1
+torch
 torchvision
 matplotlib
 scikit-learn
