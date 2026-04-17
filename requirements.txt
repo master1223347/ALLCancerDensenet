@@ -3,3 +3,7 @@ torchvision
 matplotlib
 scikit-learn
 numpy
+tqdm
+scipy
+grad-cam
+scikit-image
