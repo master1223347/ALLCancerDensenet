@@ -1,0 +1,4 @@
+seed,best_checkpoint,latest_checkpoint,history_csv,test_metrics_json,training_curves_png
+42,1,1,1,1,1
+52,1,1,1,1,1
+62,1,1,1,1,1

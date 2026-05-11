@@ -1,0 +1,10 @@
+              precision    recall  f1-score   support
+
+  all_benign     0.9582    0.9467    0.9524       750
+   all_early     0.9449    0.9600    0.9524       750
+     all_pre     0.9865    0.9733    0.9799       750
+     all_pro     0.9841    0.9933    0.9887       750
+
+    accuracy                         0.9683      3000
+   macro avg     0.9684    0.9683    0.9683      3000
+weighted avg     0.9684    0.9683    0.9683      3000

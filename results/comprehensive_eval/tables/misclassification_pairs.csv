@@ -1,0 +1,10 @@
+true_class,predicted_class,count
+all_benign,all_early,33
+all_early,all_benign,29
+all_pre,all_pro,9
+all_pre,all_early,9
+all_pro,all_pre,5
+all_benign,all_pre,5
+all_benign,all_pro,2
+all_pre,all_benign,2
+all_early,all_pro,1

@@ -1,0 +1,69 @@
+{
+  "seeds": [
+    42,
+    52,
+    62
+  ],
+  "num_seeds": 3,
+  "hardware": {
+    "platform": "macOS-26.2-arm64-arm-64bit",
+    "python": "3.12.4",
+    "device": "mps",
+    "cuda_available": false,
+    "mps_available": true
+  },
+  "max_epochs": 2,
+  "batch_size": 32,
+  "metrics": {
+    "accuracy": {
+      "mean": 0.9667777777777777,
+      "std": 0.0013877773329774377
+    },
+    "balanced_accuracy": {
+      "mean": 0.9667777777777777,
+      "std": 0.0013877773329773935
+    },
+    "macro_f1": {
+      "mean": 0.9667218384125992,
+      "std": 0.0014523848454307878
+    },
+    "micro_f1": {
+      "mean": 0.9667777777777777,
+      "std": 0.0013877773329774377
+    },
+    "macro_recall": {
+      "mean": 0.9667777777777777,
+      "std": 0.0013877773329773935
+    }
+  },
+  "per_seed": [
+    {
+      "accuracy": 0.9683333333333334,
+      "balanced_accuracy": 0.9683333333333333,
+      "macro_f1": 0.9683367466152946,
+      "micro_f1": 0.9683333333333334,
+      "macro_recall": 0.9683333333333333,
+      "seed": 42
+    },
+    {
+      "accuracy": 0.9663333333333334,
+      "balanced_accuracy": 0.9663333333333333,
+      "macro_f1": 0.9663061436275255,
+      "micro_f1": 0.9663333333333334,
+      "macro_recall": 0.9663333333333333,
+      "seed": 52,
+      "best_epoch": 2,
+      "best_val_loss": 0.42099783245722455
+    },
+    {
+      "accuracy": 0.9656666666666667,
+      "balanced_accuracy": 0.9656666666666667,
+      "macro_f1": 0.9655226249949775,
+      "micro_f1": 0.9656666666666667,
+      "macro_recall": 0.9656666666666667,
+      "seed": 62,
+      "best_epoch": 2,
+      "best_val_loss": 0.4257463707923889
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "num_checkpoints_evaluated": 3,
+  "checkpoints": [
+    "models/seed_42/densenet_best.pth",
+    "models/seed_52/densenet_best.pth",
+    "models/seed_62/densenet_best.pth"
+  ],
+  "overall_metrics_mean_std": {
+    "accuracy": "0.9668 \u00b1 0.0014",
+    "balanced_accuracy": "0.9668 \u00b1 0.0014",
+    "macro_f1": "0.9667 \u00b1 0.0015",
+    "micro_f1": "0.9668 \u00b1 0.0014",
+    "macro_recall": "0.9668 \u00b1 0.0014"
+  },
+  "primary_checkpoint": "models/seed_42/densenet_best.pth",
+  "primary_metrics": {
+    "accuracy": 0.9683333333333334,
+    "balanced_accuracy": 0.9683333333333333,
+    "macro_f1": 0.9683367466152946,
+    "micro_f1": 0.9683333333333334,
+    "macro_recall": 0.9683333333333333,
+    "checkpoint": "models/seed_42/densenet_best.pth",
+    "seed": 42,
+    "epoch": 2,
+    "best_val_loss": 0.40247007163365683,
+    "hardware": {
+      "platform": "macOS-26.2-arm64-arm-64bit",
+      "python": "3.12.4",
+      "device": "mps",
+      "cuda_available": false,
+      "mps_available": true
+    },
+    "config": {
+      "max_epochs": 20,
+      "batch_size": 32,
+      "freeze_epochs": 2,
+      "base_lr": 0.0001,
+      "fine_tune_lr": 5e-05,
+      "weight_decay": 0.0001,
+      "label_smoothing": 0.05
+    }
+  },
+  "ece": 0.20314216500520707,
+  "low_confidence_percent": 13.033333333333333,
+  "seed_values": [
+    42,
+    52,
+    62
+  ],
+  "epoch_values": [
+    2,
+    2,
+    2
+  ],
+  "hardware": [
+    {
+      "platform": "macOS-26.2-arm64-arm-64bit",
+      "python": "3.12.4",
+      "device": "mps",
+      "cuda_available": false,
+      "mps_available": true
+    },
+    {
+      "platform": "macOS-26.2-arm64-arm-64bit",
+      "python": "3.12.4",
+      "device": "mps",
+      "cuda_available": false,
+      "mps_available": true
+    },
+    {
+      "platform": "macOS-26.2-arm64-arm-64bit",
+      "python": "3.12.4",
+      "device": "mps",
+      "cuda_available": false,
+      "mps_available": true
+    }
+  ],
+  "bootstrap_rounds": 1000,
+  "gradcam_enabled": true,
+  "mask_root": null,
+  "external_data_dir": null
+}

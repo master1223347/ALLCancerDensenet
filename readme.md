@@ -7,12 +7,23 @@ This project implements a DenseNet model to classify images of blood smears into
 
       project/
       │
-      ├── data/               # raw and processed images
-      ├── models/             # saved DenseNet checkpoints
-      ├── notebooks/          # preprocessing, training, evaluation
-      ├── results/            # plots, Grad-CAM visualizations, confusion matrices
-      └── README.md           # this file
-      └── requirements.txt    # intstallation requirements
+      ├── data/                         # raw and processed images
+      ├── models/                       # saved DenseNet checkpoints + summaries
+      ├── notebooks/
+      │   ├── *.ipynb                   # source notebooks
+      │   └── executed/                 # executed notebook artifacts
+      ├── scripts/
+      │   ├── pipeline/                 # script versions of training/eval notebooks
+      │   └── generate_research_report.py
+      ├── results/
+      │   ├── comprehensive_eval/       # figures, tables, Grad-CAM outputs
+      │   ├── reports/                  # compiled markdown reports
+      │   ├── run_logs/
+      │   │   ├── legacy_nbconvert/     # early notebook-execution logs
+      │   │   └── research/             # research-grade training/eval logs
+      │   └── archive/                  # retained placeholder/legacy files
+      ├── README.md                     # this file
+      └── requirements.txt              # installation requirements
 
 ## Dataset
 
@@ -37,6 +48,11 @@ To reproduce the results:
 
 3. **Evaluate performance**  
    Run `03_evaluation.ipynb` to generate metrics (accuracy, precision, recall, F1-score), confusion matrices, and Grad-CAM visualizations for interpretability.
+
+For scripted/headless runs (same pipeline logic), use:
+
+- `scripts/pipeline/02_training_densenet.py`
+- `scripts/pipeline/03_evaluation.py`
 
 ## Results
 

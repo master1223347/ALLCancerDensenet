@@ -1,0 +1,21 @@
+{
+  "data_dir": "data",
+  "image_size": 224,
+  "batch_size": 32,
+  "num_workers": 0,
+  "seed": 42,
+  "class_names": [
+    "all_benign",
+    "all_early",
+    "all_pre",
+    "all_pro"
+  ],
+  "split_sizes": {
+    "train": 14000,
+    "val": 3000,
+    "test": 3000
+  },
+  "manifest_path": "models/dataset_manifest.csv",
+  "mask_root": null,
+  "domain_metadata_csv": null
+}

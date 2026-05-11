@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.9683333333333334,
+  "balanced_accuracy": 0.9683333333333333,
+  "macro_f1": 0.9683367466152946,
+  "micro_f1": 0.9683333333333334,
+  "macro_recall": 0.9683333333333333,
+  "seed": 42,
+  "best_epoch": 2,
+  "best_val_loss": 0.40247007163365683,
+  "checkpoint": "models/seed_42/densenet_best.pth"
+}
