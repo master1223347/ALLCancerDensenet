@@ -1,0 +1,16 @@
+Using device: mps
+Hardware: {'platform': 'macOS-26.2-arm64-arm-64bit', 'python': '3.12.4', 'device': 'mps', 'cuda_available': False, 'mps_available': True}
+Config: seeds=[42], max_epochs=2, batch_size=32, early_stop_patience=5, num_workers=0, resume_from_latest=True
+Classes (4): ['all_benign', 'all_early', 'all_pre', 'all_pro']
+Split sizes -> train: 14000, val: 3000, test: 3000
+[seed 42] Best checkpoint exists, skipping training
+Completed seeds: [42]
+
+Overall mean ± std (test)
+Accuracy = 0.9683 ± 0.0000
+Balanced accuracy = 0.9683 ± 0.0000
+Macro F1 = 0.9683 ± 0.0000
+Micro F1 = 0.9683 ± 0.0000
+Macro Recall = 0.9683 ± 0.0000
+Saved: models/multi_seed_training_summary.json
+Saved: models/multi_seed_training_summary.csv

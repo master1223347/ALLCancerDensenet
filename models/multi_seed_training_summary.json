@@ -12,58 +12,60 @@
     "cuda_available": false,
     "mps_available": true
   },
-  "max_epochs": 2,
+  "max_epochs": 10,
   "batch_size": 32,
   "metrics": {
     "accuracy": {
-      "mean": 0.9667777777777777,
-      "std": 0.0013877773329774377
+      "mean": 1.0,
+      "std": 0.0
     },
     "balanced_accuracy": {
-      "mean": 0.9667777777777777,
-      "std": 0.0013877773329773935
+      "mean": 1.0,
+      "std": 0.0
     },
     "macro_f1": {
-      "mean": 0.9667218384125992,
-      "std": 0.0014523848454307878
+      "mean": 1.0,
+      "std": 0.0
     },
     "micro_f1": {
-      "mean": 0.9667777777777777,
-      "std": 0.0013877773329774377
+      "mean": 1.0,
+      "std": 0.0
     },
     "macro_recall": {
-      "mean": 0.9667777777777777,
-      "std": 0.0013877773329773935
+      "mean": 1.0,
+      "std": 0.0
     }
   },
   "per_seed": [
     {
-      "accuracy": 0.9683333333333334,
-      "balanced_accuracy": 0.9683333333333333,
-      "macro_f1": 0.9683367466152946,
-      "micro_f1": 0.9683333333333334,
-      "macro_recall": 0.9683333333333333,
-      "seed": 42
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "micro_f1": 1.0,
+      "macro_recall": 1.0,
+      "seed": 42,
+      "best_epoch": 10,
+      "best_val_loss": 0.20297589612007141
     },
     {
-      "accuracy": 0.9663333333333334,
-      "balanced_accuracy": 0.9663333333333333,
-      "macro_f1": 0.9663061436275255,
-      "micro_f1": 0.9663333333333334,
-      "macro_recall": 0.9663333333333333,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "micro_f1": 1.0,
+      "macro_recall": 1.0,
       "seed": 52,
-      "best_epoch": 2,
-      "best_val_loss": 0.42099783245722455
+      "best_epoch": 9,
+      "best_val_loss": 0.20241975712776183
     },
     {
-      "accuracy": 0.9656666666666667,
-      "balanced_accuracy": 0.9656666666666667,
-      "macro_f1": 0.9655226249949775,
-      "micro_f1": 0.9656666666666667,
-      "macro_recall": 0.9656666666666667,
+      "accuracy": 1.0,
+      "balanced_accuracy": 1.0,
+      "macro_f1": 1.0,
+      "micro_f1": 1.0,
+      "macro_recall": 1.0,
       "seed": 62,
-      "best_epoch": 2,
-      "best_val_loss": 0.4257463707923889
+      "best_epoch": 10,
+      "best_val_loss": 0.20228480784098307
     }
   ]
 }

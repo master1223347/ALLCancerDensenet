@@ -75,8 +75,8 @@
       "mps_available": true
     }
   ],
-  "bootstrap_rounds": 1000,
-  "gradcam_enabled": true,
+  "bootstrap_rounds": 100,
+  "gradcam_enabled": false,
   "mask_root": null,
   "external_data_dir": null
 }
