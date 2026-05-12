@@ -1,0 +1,44 @@
+{
+  "dataset": "/Users/abhi/.cache/kagglehub/datasets/bogdantrascau/leukemia-segmentation-dataset/versions/1/Input",
+  "sample_size": 300,
+  "sample_seed": 2026,
+  "class_mode": "binary_collapse",
+  "rows": [
+    {
+      "seed": 42,
+      "accuracy_binary": 0.99,
+      "n_samples": 300,
+      "n_benign": 46,
+      "n_malignant": 254,
+      "tp": 252,
+      "tn": 45,
+      "fp": 1,
+      "fn": 2,
+      "checkpoint": "/Users/abhi/Desktop/ALLCancerDensenet/models/seed_42/densenet_best.pth"
+    },
+    {
+      "seed": 52,
+      "accuracy_binary": 0.99,
+      "n_samples": 300,
+      "n_benign": 46,
+      "n_malignant": 254,
+      "tp": 253,
+      "tn": 44,
+      "fp": 2,
+      "fn": 1,
+      "checkpoint": "/Users/abhi/Desktop/ALLCancerDensenet/models/seed_52/densenet_best.pth"
+    },
+    {
+      "seed": 62,
+      "accuracy_binary": 0.99,
+      "n_samples": 300,
+      "n_benign": 46,
+      "n_malignant": 254,
+      "tp": 253,
+      "tn": 44,
+      "fp": 2,
+      "fn": 1,
+      "checkpoint": "/Users/abhi/Desktop/ALLCancerDensenet/models/seed_62/densenet_best.pth"
+    }
+  ]
+}
